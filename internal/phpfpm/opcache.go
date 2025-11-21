@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/elasticphphq/fcgx"
+	"github.com/gophpeek/fcgx"
 	"github.com/gophpeek/phpeek-fpm-exporter/internal/config"
 	"os"
 	"path/filepath"

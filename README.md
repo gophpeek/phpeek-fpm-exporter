@@ -4,7 +4,7 @@ PHPeek PHP-FPM Exporter is a lightweight, Go-based Prometheus exporter for PHP-F
 
 ## Features
 
-- 📊 PHP-FPM metrics via FastCGI (using [fcgx](https://github.com/elasticphphq/fcgx))
+- 📊 PHP-FPM metrics via FastCGI (using [fcgx](https://github.com/gophpeek/fcgx))
 - ⚙️ Automatic PHP-FPM pool discovery via `php-fpm -tt`
 - 🧠 Opcache statistics per FPM pool
 - 🚦 Laravel queue sizes, app info, cache state
