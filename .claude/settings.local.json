@@ -10,7 +10,8 @@
       "Bash(go test:*)",
       "Bash(go clean:*)",
       "Bash(/tmp/phpfpm_test:*)",
-      "Bash(go list:*)"
+      "Bash(go list:*)",
+      "Bash(sort:*)"
     ],
     "deny": [],
     "ask": []
