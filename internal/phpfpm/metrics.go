@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gophpeek/phpeek-fpm-exporter/internal/config"
 	"github.com/elasticphphq/fcgx"
+	"github.com/gophpeek/phpeek-fpm-exporter/internal/config"
 )
 
 type PoolProcess struct {
