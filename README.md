@@ -30,9 +30,14 @@ curl -fsSL https://raw.githubusercontent.com/gophpeek/phpeek-fpm-exporter/main/i
 # Run with auto-discovery
 phpeek-fpm-exporter serve
 
-# With Laravel monitoring
+# With Laravel monitoring (shorthand)
+phpeek-fpm-exporter serve --laravel App:/var/www/html
+
+# With Laravel queues (explicit)
 phpeek-fpm-exporter serve \
-  --laravel "name=App,path=/var/www/html,connection=redis,queues=default|emails"
+  --laravel-site name=App \
+  --laravel-site path=/var/www/html \
+  --laravel-site queues.redis=default,emails
 ```
 
 ## Configuration

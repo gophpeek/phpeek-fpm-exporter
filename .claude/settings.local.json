@@ -11,7 +11,8 @@
       "Bash(go clean:*)",
       "Bash(/tmp/phpfpm_test:*)",
       "Bash(go list:*)",
-      "Bash(sort:*)"
+      "Bash(sort:*)",
+      "Bash(./phpeek-fpm-exporter:*)"
     ],
     "deny": [],
     "ask": []
